@@ -1,0 +1,8 @@
+
+\section{Introduction}\label{sec1}
+
+Sentiment analysis (SA) has emerged as a highly active and increasingly popular field in information retrieval and text mining, driven by the rapid growth and widespread use of the internet, which involves extracting sentiments from textual data~\cite{rana2016aspect} and can be performed at the document, sentence, or aspect level~\cite{liu2022sentiment}.
+
+Aspect-based sentiment analysis (ABSA) offers a fine-grained approach by identifying sentiments tied to specific aspects of an entity~\cite{schouten2015survey, hu2004mining2}. Some methods rely on a predefined list of aspects, while others dynamically identify aspects directly from the text. Common methods in identifying aspects include frequency-based approaches that identify frequent noun phrases~\cite{hu2004mining, hu2004mining2, scaffidi2007red}, syntax-based techniques leveraging syntactical relations like adjectival modifiers~\cite{zhao2010generalizing, qiu2009expanding, zhang2010extracting}, supervised learning~\cite{jakob2010extracting}, and unsupervised models relying on topic models like LDA~\cite{blei2003latent, hofmann1999learning}.
+
+This study adopts a frequency-based approach for aspect detection, utilizing an explainable classification algorithm inspired by quantum physics called \texttt{BornClassifier}~\cite{guidotti2022text}. This classifier models text as a quantum system, representing words as quantum states and documents as their superpositions, where transition probability of a document collapsing into a target class is computed using Born's rule. The methodology and results are discussed in detail in subsequent sections.
