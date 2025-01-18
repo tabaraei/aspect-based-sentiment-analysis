@@ -5,7 +5,9 @@ The following remarks can be concluded from this study:
 \begin{itemize}
     \item Using the \texttt{SemEval2014Dataset} for training the \texttt{BornClassifier} yielded better results compared to the \texttt{AmazonReviewsDataset} in sentiment analysis, suggesting the importance of domain-specific training data for better generalization.
 
-    \item Aspect detection, although effective for simple aspects, struggled with complex noun phrases due to reliance on unigram tokenization. The lack of advanced techniques such as lemmatization due to OOV concerns may have hindered performance.
+    \item Aspect detection, although effective for simple aspects, struggled with complex noun phrases due to reliance on unigram tokenization. In addition, the \texttt{spaCy} model itself was not sufficient to find all the candidate aspects according to POS tags.
+    
+    \item The lack of advanced techniques such as lemmatization or n-grams due to OOV concerns may have hindered performance.
 
     \item In both sentiment analysis and aspect-based sentiment analysis (ABSA), the \texttt{BornClassifier} has demonstrated superior performance compared to the NLTK and RoBERTa models.
 \end{itemize}
