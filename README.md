@@ -10,6 +10,7 @@ This project leverages the [Born Classifier](https://bornrule.eguidotti.com/) to
 > |------|--------------|------|
 > | `ABSA.ipynb` | Aspect-Based Sentiment Analysis Project | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/tabaraei/aspect-based-sentiment-analysis/blob/main/ABSA.ipynb) |
 > | `report.pdf` | Research Paper Reporting the Experiments | [![Paper](https://img.shields.io/badge/Paper-PDF-red)](https://github.com/tabaraei/aspect-based-sentiment-analysis/blob/main/latex/report.pdf) |
+> | `presentation.key` | Keynote Presentation | [![Presentation](https://img.shields.io/badge/Presentation-Keynote-green)](https://github.com/tabaraei/aspect-based-sentiment-analysis/blob/main/presentation.key) |
 
 ### NLP and ML Tools
 
